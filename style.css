@@ -1,5 +1,4 @@
 body{
-    margin:0;
     padding:0;
     box-sizing: border-box;
  
@@ -26,6 +25,8 @@ li{
     background-repeat: no-repeat;
     height: 650px;
     width: 1440px;
+    margin-top: -9px;
+    margin-left: -8px;
 }
 .nav-section{
     position: absolute;
@@ -259,10 +260,10 @@ label {
 .fname{
     left: 45px;
 }
-.firstname:focus ~ .fname,.firstname:valid ~ .fname,
-.lastname:focus ~ .lname,.lastname:valid ~ .lname,
-.femail:focus ~ .email, .femail:valid ~ .email,
-.fcompany:focus ~ .company, .fcompany:valid ~ .company
+.firstname:focus ~ .fname,
+.lastname:focus ~ .lname,
+.femail:focus ~ .email, 
+.fcompany:focus ~ .company
 {
     left: 45px;
     top: 72px;
@@ -273,16 +274,16 @@ label {
 }
 
 
-.lastname:focus ~ .lname, .lastname:valid ~ .lname{
+.lastname:focus ~ .lname, .lastname:active ~ .lname{
     left: 245px;
     top: 72px;
 }
-.femail:focus ~ .email, .femail:valid ~ .email{
+.femail:focus ~ .email{
     background: linear-gradient(180deg, #2A7D6C 0%, rgba(62, 105, 96, 0.62) 100%);
     top: 142px;
     left: 46px;
 }
-.fcompany:focus ~ .company, .fcompany:valid ~ .company{
+.fcompany:focus ~ .company{
     left: 239px;
     top: 142px;
 }
@@ -430,7 +431,7 @@ label {
     border: 2px solid #5BC8AF;
     box-sizing: border-box;
     border-radius: 4px;
-    cursor: pointer;
+    
 }
 .succcess{
     position: absolute;
@@ -439,15 +440,16 @@ label {
     font-weight: 700;
     font-size: 18px;
     line-height: 28px;
-    /* identical to box height, or 156% */
     color: #5BC8AF;
     top: 10px;
     left: 90px; 
+   
 }
 .button img{
     top: 18px;
     left: 270px;
     position: absolute;
+   
  }
 
  /* //slider */
@@ -504,7 +506,7 @@ label {
     width: 270px;
     height: 270px;
     margin-left: 230px;
-    margin-top: 653px;
+    margin-top: 675px;
     border-top-left-radius: 15px;
     border-bottom-left-radius:15px;
     background: url("./assets/section2/abbi.png");
@@ -1324,6 +1326,7 @@ label {
         height: 52px;
         left: 375px;
         top: 400px;
+        cursor: pointer;
     }
     .abbi-img{
         width: 198.37px;
@@ -1629,7 +1632,7 @@ label {
     .logo{
         margin-left: -10px;
         width: 156px;
-        height: 16px;
+        height: 24px;
         margin-top: -11px;
     }
     .head{
@@ -1644,7 +1647,7 @@ label {
         position: absolute;
         width: 328px;
         height: 120px;
-        left: 16px;
+        left: 24px;
         top: 184px;
     }
    .big-text{
@@ -1663,7 +1666,7 @@ label {
     position: absolute;
     width: 328px;
     height: 555px;
-    left:5px;
+    left:24px;
     top: 400px;
    }
    .name input{
@@ -1681,7 +1684,7 @@ label {
     top: 140px;
     left: 15px;
    }
-   .lastname:focus ~ .lname,.lastname:valid ~ .lname{
+   .lastname:focus ~ .lname{
         left: 58px;
         top: 134px;
    }
@@ -1690,7 +1693,7 @@ label {
     left: 58px;
     top: 155px;
    }
-   .femail:focus ~ .email, .femail:valid ~ .email{
+   .femail:focus ~ .email{
         top:201px;
         left:30px
    }
@@ -1702,7 +1705,7 @@ label {
     top: 220px;
     left: 58px;
    }
-  .fcompany:focus ~ .company, .fcompany:valid ~ .company{
+  .fcompany:focus ~ .company{
         left: 58px;
         top: 274px;
   }
@@ -1745,7 +1748,7 @@ label {
         position: absolute;
         width: 229px;
         height: 32px;
-        left: 16px;
+        left: 24px;
         top: -300px;
         background-size: contain;
        
@@ -1761,7 +1764,7 @@ label {
         position: absolute;
         width: 328px;
         height: 312px;
-        left: 16px;
+        left: 24px;
         top: -308px;
     }
 
@@ -1770,7 +1773,7 @@ label {
         position: absolute;
         width: 328px;
         height: 312px;
-        left: 16px;
+        left: 24px;
         top: -74px;
     }
     .thirdsection p{
@@ -1778,13 +1781,13 @@ label {
     position: absolute;
     width: 328px;
     height: 312px;
-    left: 16px;
+    left: 24px;
     top: 146px;
 
     }
     .button{
         position: absolute;
-        left: 5px;
+        left: 10px;
         top: 652px;
     }
     
@@ -1822,11 +1825,15 @@ label {
     }
     .section-4{
         top: 1780px;
+        width:400px;
     }
     .organize{
         background:url("./assets/366organize.png");
         background-repeat:no-repeat;
         background-size: contain;
+    }
+    .abbay{
+        width:400px;
     }
     .line{
         display: flex;
@@ -1839,7 +1846,7 @@ label {
     .sub2-text,.sub3-text,.sub4-text{
         width: 328px;
         height: 112px;
-        left: 16px;
+        left: 24px;
     }
     
     .sub3-text{
@@ -1850,27 +1857,27 @@ label {
     }
     .assessment{
         top: 1410px;
-        left: 16px;
+        left: 24px;
     }
     .treatment{
         top: 1525px;
-        left: 16px;
+        left: 24px;
     }
     .transport{
         top: 1640px;
-        left: 16px;
+        left: 24px;
     }
     .advocasy{
-        left: -115px;
+        left: -103px;
         top: 1625px;
     }
     .employment{
         top: 1975px;
-        left: -520px;
+        left: -508px;
     }
     .aftercare{
         top: 2095px;
-        left: -925px;    
+        left: -913px;    
     }
     .polygon-2{
         margin-left: 140px;
@@ -1887,7 +1894,7 @@ label {
     }
     .watch{
         width: 400px;
-        top: 3625px;
+        top: 3630px;
         background: url("./assets/366watch.png") no-repeat;
         background-size:cover;
         height: 889px;
@@ -1903,7 +1910,7 @@ label {
         top: 80px;
     }
     .checkmark,.checkmark-2,.checkmark-3{
-        left: 16px;
+        left: 24px;
         width: 17.6px;
         height: 13.4px;
     }
@@ -1951,7 +1958,7 @@ label {
     }
     .footer{
     width: 400px;
-    top: 4890px;
+    top: 4897px;
     }
     .last-err{
         top: 200px;
